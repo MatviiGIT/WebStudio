@@ -1,0 +1,37 @@
+.footer{
+    background-color: rgb(41, 39, 39);
+}
+
+.footerh2 {
+    color: rgb(45, 113, 223);
+}
+
+.colorfg {
+    color: rgb(233, 227, 227);
+}
+
+.numbercol{
+    color: rgb(152, 150, 150);
+}
+
+.Emcol{
+    color: rgb(152, 150, 150);
+}
+
+.Teamscol{
+    background-color: rgb(244, 247, 255);
+}
+
+.aboutcol{
+    color: white;
+    background-color:rgb(41, 39, 39); 
+}
+
+.buttoncol{
+    color: rgb(255, 255, 255);
+    background-color: blue;
+}
+
+.h2col  {
+    color: blue;
+}
