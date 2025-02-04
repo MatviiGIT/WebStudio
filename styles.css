@@ -165,3 +165,18 @@ body {
     border-radius: 15px;
     cursor: pointer;
 }
+
+.post-about{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text-deteils{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.post-imgs{
+    display: flex;
+    justify-content: flex-start;
+}
