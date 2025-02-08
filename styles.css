@@ -7,55 +7,41 @@
 .montserrat {
     font-family: "Montserrat", serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal
 }
 
-.first-part{
-    font-family: "Raleway",sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    color: rgb(0, 149, 255);
-}
-
-.second-part{
-    font-family: "Raleway",sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    color: black;
-}
-
-.container{
+.container {
     max-width: 1170px;
-    margin:  0 auto;
+    margin: 0 auto;
     padding: 0 15px;
 
-    outline: 2px dashed red;
+  /*  outline: 2px dashed red; */
 }
 
-.post-about{
+.post-about {
     padding-top: 200px;
-    padding-bottom: 280px ;
+    padding-bottom: 280px;
 }
 
-.text-deteils{
+.text-deteils {
     padding-top: 94px;
-    padding-bottom: 94px ;
-}
-
-.post-imgs{
     padding-bottom: 94px;
 }
-    
 
-.first-part-footer{
-    font-family: "Raleway",sans-serif;
+.post-imgs {
+    padding-bottom: 94px;
+}
+
+
+.first-part-footer {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     color: rgb(0, 149, 255);
 }
 
-.second-part-footer{
-    font-family: "Raleway",sans-serif;
+.second-part-footer {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     color: rgb(255, 255, 255);
@@ -83,23 +69,23 @@ body {
     color: rgb(152, 150, 150);
 }
 
-.team-portfolio{
+.team-portfolio {
     color: rgb(88, 87, 87)
 }
 
-.post-text{
+.post-text {
     font-family: "Roboto", serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.7;
-    color:  rgb(88, 87, 87)
+    color: rgb(88, 87, 87)
 }
 
-.post-title{
+.post-title {
     font-family: "Roboto", serif;
     font-size: 14px;
     font-weight: 700;
-    color:  rgb(33, 33, 33)
+    color: rgb(33, 33, 33)
 }
 
 .Emcol {
@@ -110,7 +96,7 @@ body {
 }
 
 .Teamscol {
-    background-color: rgb(244, 247, 255);
+    background-color: rgb(244, 244, 244);
 }
 
 .post-about {
@@ -119,7 +105,7 @@ body {
     text-align: center;
 }
 
-.post-about-text{
+.post-about-text {
     font-family: "Roboto", serif;
     font-weight: 900;
     font-size: 44px;
@@ -130,53 +116,75 @@ body {
     background-color: blue;
 }
 
-.navigation-link{
-    font-family:"Roboto", serif;
-    font-size: 14px ;
+.navigation-link {
+    font-family: "Roboto", serif;
+    font-size: 14px;
     font-weight: 500;
     color: rgb(21, 21, 21);
     text-decoration: none;
 }
 
-.navigation-link:hover{
+.navigation-link:hover {
     color: rgb(0, 110, 255);
 }
 
-.info-title{
+.info-title {
     font-family: "Roboto", serif;
     font-weight: 700;
     font-size: 36px;
     text-align: center;
 }
 
-.team-title{
+.team-title {
     text-align: center;
 }
 
-.Emcol, .numbercol{
+.Emcol,
+.numbercol {
     text-decoration: none;
 }
 
-.form-btn{
+.form-btn {
     margin: 0 auto;
     background: rgb(0, 136, 255);
     padding: 20px 48px;
-    color: white ;
+    color: white;
     border-radius: 15px;
     cursor: pointer;
 }
 
-.post-about{
+.Our-team-flex {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 94px;
 }
 
-.text-deteils{
+.Img-team {
     display: flex;
-    justify-content: flex-start;
+    width: 225px;
 }
 
-.post-imgs{
+.info-title-team {
     display: flex;
-    justify-content: flex-start;
+    margin-top: 188px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-text-flex{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.post-text{
+    width: 270px;
+    height: 98px;
 }
