@@ -20,7 +20,7 @@
 
 .post-about {
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
 }
 
 .text-deteils {
@@ -32,6 +32,10 @@
     padding-bottom: 94px;
 }
 
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 
 .first-part-footer {
     font-family: "Raleway", sans-serif;
@@ -97,7 +101,7 @@ body {
 
 .Teamscol {
     background-color: rgb(244, 244, 244);
-    margin: 50px 0;
+    padding: 50px 0;
 }
 
 .post-about {
@@ -162,9 +166,12 @@ body {
     margin-bottom: 94px;
 }
 
-.Img-team {
-    display: flex;
-    width: 225px;
+.img-body{
+    width: 270px;
+}
+
+.Img-team{
+    width: 100%;
 }
 
 .info-title-team {
@@ -191,4 +198,36 @@ body {
 
 figure{
     margin: 0;
+}
+
+.Adres{
+    font-family: "Roboto", serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(21, 21, 21);
+    text-decoration: none;
+}
+
+.Adres:hover{
+    color: rgb(0, 110, 255);
+}
+
+.colorfg{
+    padding-top: 20px;
+    margin: 0;
+}
+
+.Emcol{
+    padding-top: 9px;
+}
+
+.numbercol{
+    padding-top: 9px;
+}
+
+
+
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
